@@ -1,0 +1,37 @@
+.csstrans {
+	width: 500px;
+	height: 60px;
+	margin: 40px 0;
+}
+.csstrans:hover .transition {
+	margin-left: 300px;
+	background-color: #FF0000;
+}
+.csstrans .transition {
+	width: 200px;
+	height: 150px;
+	background-color: #0000FF;
+	padding: 10px;
+	border-radius: 5px;
+	margin-left: 0;
+	-webkit-transition: margin-left 2s linear, background-color 1s ease 1s;
+	-moz-transition: margin-left 2s linear, background-color 1s ease 1s;
+	-o-transition: margin-left 2s linear, background-color 1s ease 1s;
+	-ms-transition: margin-left 2s linear, background-color 1s ease 1s;
+	transition: margin-left 2s linear, background-color 1s ease 1s;
+}
+.txtsde:before {
+	margin: 15px 0 0 50px;
+	content: "Try over the blue box"
+}
+.txtseason:hover {
+	opacity: 1;
+}
+.txtseason {
+	display: block;
+	width: 200px;
+	height: 150px;
+	opacity: 0.09;
+	background-image: url('http://www.uiux.biz/images/ha1.jpg');
+	background-repeat: no-repeat;
+}
